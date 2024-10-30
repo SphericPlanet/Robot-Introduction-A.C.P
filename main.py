@@ -1,4 +1,4 @@
-class Alexa:
+class Robot:
     def __init__(self, name, model, purpose):
         self.name = name
         self.model = model
@@ -9,6 +9,10 @@ class Alexa:
         print("I am a " + self.model + " model.")
         print("My purpose is to " + self.purpose + ".")
 
-alexa1 = Alexa("Alexa", "Echo Dot 4th Gen", "assist with smart home tasks and answer questions")
 
-alexa1.introduce()
+robot1 = Robot("Alexa", "Echo Dot 4th Gen", "assist with smart home tasks and answer questions")
+robot2 = Robot("Jarvis", "AI Assistant", "assist with daily tasks and provide information")
+
+
+robot1.introduce()
+robot2.introduce()
